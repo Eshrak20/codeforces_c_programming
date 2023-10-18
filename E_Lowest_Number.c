@@ -12,6 +12,7 @@ int main()
         scanf("%d", &A[i]);
     }
     int mn = INT_MAX;
+    int mn = INT_MIN;
     int pos = 0;
     for (int i = 0; i < n; i++)
     {
